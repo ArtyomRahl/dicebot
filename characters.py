@@ -4,8 +4,7 @@ import math
 def message(text_message):
     try:
         message_to_word = text_message.split( )
-        name = message_to_word[0]
-        name = name[1:]
+        name = message_to_word[0][1:]
         answer = ['']
         filename = ['']
         ability = ['']
